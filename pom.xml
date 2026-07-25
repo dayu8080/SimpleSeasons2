@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.customseasons</groupId>
-    <artifactId>SimpleSeasons</artifactId>
-    <version>1.0.1</version>
+    <groupId>com.realisticseasons</groupId>
+    <artifactId>RealisticSeasons</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -31,7 +31,7 @@
     </dependencies>
 
     <build>
-        <finalName>SimpleSeasons</finalName>
+        <finalName>RealisticSeasons</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

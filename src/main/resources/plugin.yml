@@ -1,17 +1,21 @@
-name: SimpleSeasons
-main: com.customseasons.SimpleSeasonsPlugin
-version: 1.0.1
+name: RealisticSeasons
+main: com.realisticseasons.RealisticSeasonsPlugin
+version: 1.0.0
 api-version: 1.16
-author: CustomSeasons
-description: Лёгкие сезоны без влияния на игрока и на скорость тиков сервера. Только визуал и рост растений.
+author: RealisticSeasons
+description: Лёгкие сезоны без влияния на игрока и без изменения скорости тиков сервера. Только визуал и рост растений.
 
 commands:
   season:
     description: Управление сезонами
     aliases: [seasons]
     usage: /<command> [info|set|next|reload]
+    permission: seasons.use
 
 permissions:
+  seasons.use:
+    description: Доступ к базовым командам сезона (info)
+    default: true
   seasons.admin:
-    description: Доступ к изменению сезонов
+    description: Доступ к изменению сезонов (set, next, reload)
     default: op

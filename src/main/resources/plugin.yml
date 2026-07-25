@@ -1,0 +1,17 @@
+name: SimpleSeasons
+main: com.customseasons.SimpleSeasonsPlugin
+version: 1.0.1
+api-version: 1.16
+author: CustomSeasons
+description: Лёгкие сезоны без влияния на игрока и на скорость тиков сервера. Только визуал и рост растений.
+
+commands:
+  season:
+    description: Управление сезонами
+    aliases: [seasons]
+    usage: /<command> [info|set|next|reload]
+
+permissions:
+  seasons.admin:
+    description: Доступ к изменению сезонов
+    default: op

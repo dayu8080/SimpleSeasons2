@@ -1,4 +1,4 @@
-name: Build SimpleSeasons
+name: Build RealisticSeasons
 
 on:
   push:
@@ -27,5 +27,5 @@ jobs:
       - name: Upload built plugin jar
         uses: actions/upload-artifact@v4
         with:
-          name: SimpleSeasons
-          path: target/SimpleSeasons.jar
+          name: RealisticSeasons
+          path: target/RealisticSeasons.jar
